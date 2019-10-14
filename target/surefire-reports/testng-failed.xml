@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.parallel.tests.HomePageTest1">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.parallel.tests.HomePageTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.parallel.tests.HomePageTest">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.parallel.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
